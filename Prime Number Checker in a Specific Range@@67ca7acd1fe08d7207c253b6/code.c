@@ -2,11 +2,11 @@
 #include <math.h>
 int is_prime(int num) {
     if (num <= 1) {
-        return 0;
+        return 0; 
     }
     for (int i = 2; i <= sqrt(num); i++) {
         if (num % i == 0) {
-            return 0;
+            return 0; 
         }
     }
     return 1; 
@@ -19,7 +19,6 @@ void print_primes_in_range(int a, int b) {
             found_prime = 1;
         }
     }
-
     if (!found_prime) {
         printf("No prime numbers\n");
     }
