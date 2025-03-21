@@ -3,7 +3,8 @@
 int main() {
     int marks;
     scanf("%d", &marks);
-    } if {
+    } 
+        if {
         if (marks >= 90) {
             printf(" A\n");
         } else if (marks >= 80) {
