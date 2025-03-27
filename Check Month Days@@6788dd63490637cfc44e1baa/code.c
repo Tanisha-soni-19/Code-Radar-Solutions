@@ -29,7 +29,7 @@ int main() {
     }
 
     
-    printf("Number of days in monthe %d:%d\n");
+    printf("Number of days in month %d:%d\n");
 
     return 0;
 }
