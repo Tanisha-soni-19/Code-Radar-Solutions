@@ -7,7 +7,7 @@ int main() {
     if (month < 1 || month > 12) {
         printf("Invalid\n");
     } else {
-        printf(" %d\n", month, daysInMonth[month]);
+        printf(" %d\n");
     }
 
     return 0; 
