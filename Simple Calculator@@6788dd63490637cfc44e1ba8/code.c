@@ -10,11 +10,11 @@ int main() {
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("%.2lf + %.2lf = %.2lf\n", num1, num2, result);
+            printf("%d + %d = %d\n", num1, num2, result);
             break;
         case '-':
             result = num1 - num2;
-            printf("%.2lf - %.2lf = %.2lf\n", num1, num2, result);
+            printf("%d - %d = %d\n", num1, num2, result);
             break;
         case '*':
             result = num1 * num2;
