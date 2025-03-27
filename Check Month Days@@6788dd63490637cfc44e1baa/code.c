@@ -29,7 +29,7 @@ int main() {
     }
 
     
-    printf("%d\n", month, days);
+    printf("%d\n");
 
     return 0;
 }
