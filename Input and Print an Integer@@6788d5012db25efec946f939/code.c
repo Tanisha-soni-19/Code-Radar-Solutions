@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-int N;
-scanf("%d",N);
-printf("You entered: %d",N);
+int number;
+scanf("%d",number);
+printf("You entered: %d",number)
 return 0;
 }
