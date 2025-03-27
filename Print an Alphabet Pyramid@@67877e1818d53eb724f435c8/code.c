@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main() {
@@ -10,7 +9,10 @@ int main() {
             printf(" ");
         }
         for (j = 0; j < i; j++) {
-            printf("%c ", 'A' + j);
+            printf("%c", 'A' + j); 
+            if (j < i - 1) { 
+                printf(" ");
+            }
         }
         printf("\n");
     }
