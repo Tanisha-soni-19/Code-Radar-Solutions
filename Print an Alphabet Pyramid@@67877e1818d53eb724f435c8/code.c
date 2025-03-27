@@ -1,6 +1,4 @@
-c
-Run
-Copy code
+
 #include <stdio.h>
 
 int main() {
