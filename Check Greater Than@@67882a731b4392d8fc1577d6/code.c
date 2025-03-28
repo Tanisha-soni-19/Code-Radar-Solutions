@@ -7,7 +7,7 @@ int main() {
     if (num1 > num2) {
         printf("True %.2f\n");
     } else {
-        printf("False")
+        printf("False");
     }
 
     return 0;
