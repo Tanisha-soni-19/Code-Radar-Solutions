@@ -16,5 +16,5 @@
      }else{
          printf("No");
      }
-     print 0;
+     return 0;
  }
