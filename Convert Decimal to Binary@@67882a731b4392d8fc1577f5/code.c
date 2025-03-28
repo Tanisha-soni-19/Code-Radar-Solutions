@@ -4,7 +4,7 @@ int main() {
     int num;
     scanf("%d", &num); 
 
-    int binary[32]; 
+    int binary; 
     int i = 0;
 
     if (num == 0) {
