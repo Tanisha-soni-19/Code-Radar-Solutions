@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, result;
-    scanf("%d", &num1);
-    scanf("%d", &num2);
-    result = num1>>num2;
+    int num, shift, result;
+    scanf("%d", &num);
+    scanf("%d", &shift)
+    result = num << shift;
     printf("%d\n", result);
 
     return 0;
