@@ -9,9 +9,11 @@
              for(int j=i;j<n;j++){
                  str[j]=str[j+1];
              }
-             }i--;
              n--;
+             i--;
          }
      }
      printf("%s",str);
+     return 0;
+ }
      
