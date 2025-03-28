@@ -20,7 +20,7 @@ int main() {
     scanf(" %c", &ch); 
     int count = countCharacter(str, ch);
     
-    printf("The character '%c' appears %d times in the string.\n", ch, count);
+    printf("%d\n", count);
 
     return 0;
 }
